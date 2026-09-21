@@ -1,0 +1,62 @@
+:root {
+  /* Cores */
+  --c-ink: #131519;        
+  --c-cream: #e8ddcb;      
+  --c-cream-light: #f3ecdf;
+  --c-yellow: #f0bb28;
+  --c-yellow-dark: #d9a512;
+  --c-teal: #2f5e6c;
+  --c-navy: #232d48;
+  --c-navy-card: #26324e;
+  --c-navy-input: #2b3856;
+  --c-red: #851204;
+  --c-red-bright: #c23c2a;
+  --c-red-num: #e5261a;
+  --c-blue-price: #34456b;
+  --c-paper: #dcdcdc;
+  --c-white: #ffffff;
+  --c-text-light: #d9d2c5;
+  --c-text-muted: #7b7771;
+
+  /* Tipografia */
+  --f-display: 'Baloo 2', 'Poppins', system-ui, sans-serif;
+  --f-body: 'Poppins', system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  /* Escala de texto fluida (mobile -> desktop) */
+  --t-hero: clamp(2.6rem, 1.4rem + 5.4vw, 5.6rem);
+  --t-h2: clamp(1.9rem, 1.2rem + 2.6vw, 3.1rem);
+  --t-h3: clamp(1.25rem, 1.1rem + 0.6vw, 1.6rem);
+  --t-body: clamp(0.95rem, 0.9rem + 0.25vw, 1.1rem);
+  --t-lead: clamp(1rem, 0.9rem + 0.4vw, 1.25rem);
+  --t-small: 0.875rem;
+
+  /* Espaçamento */
+  --s-1: 0.5rem;
+  --s-2: 1rem;
+  --s-3: 1.5rem;
+  --s-4: 2.5rem;
+  --s-5: 4rem;
+  --s-6: clamp(4rem, 3rem + 5vw, 8rem);
+
+  /* Layout */
+  --container: 75rem;
+  --gutter: clamp(1.25rem, 0.5rem + 4vw, 4rem);
+  --radius: 10px;
+  --nav-h: 5.6rem;
+  --logo-h: 4.2rem;
+  --mnav-h: 68px;
+
+  /* Movimento */
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --dur-fast: 180ms;
+  --dur: 600ms;
+}
+
+html { font-size: 100%; }
+
+@media (min-width: 900px) {
+  html { font-size: 80%; }
+}
+@media (min-width: 1700px) {
+  html { font-size: 88%; }
+}
